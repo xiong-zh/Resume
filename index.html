@@ -1,0 +1,467 @@
+<!--
+1. 此模板进行一键渲染，最后丢回前端的是静态页面，修改时只需修改yml文件。
+2. 之所以不用ajax直接从json读取原因是，这样大量使用js渲染对于seo不友好。
+-->
+<!DOCTYPE html>
+<html lang="zh en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="shortcut icon" href="https://www.lujianxin.com/static/image/favicon.ico"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <meta name="baidu-site-verification" content="8VnRCQnw7Z"/>
+    
+    <meta name="shenma-site-verification" content="ed5d4e80c572827fbe7613c32ef4c1be_1561717247"/>
+    
+    <meta name="360-site-verification" content="37c5d131d288d26f5091b1f25eb28c48"/>
+    
+    <meta name="sogou_site_verification" content="FxLjWABP4A"/>
+    
+    <meta name="msvalidate.01" content="725274B06FEC1DAE34DA835E37A6D5D5"/>
+    
+    <meta name="google-site-verification" content="C2ujkHLAjxkyD2SXrnXNeoZum0YsZcl832GvR3XBTw4"/>
+    
+    <title>张雄-个人简历</title>
+    <meta name="keywords" content="个人简历、张雄、web简历、Python开发、后端工程师、jeeyshe">
+    <meta name="description" content="一个假装文艺的Python后端程序员">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="wrapper" id="wrapper">
+    <header>
+        <!--    轮播图    -->
+        <div class="banner row" id="banner">
+            <!--     background img       -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd slides-container" style="height:100%">
+                
+                <div class="slide">
+                    <img src="images/header-image/header-bg1.jpg" width="1024" height="682" alt="">
+                </div>
+                
+                <div class="slide">
+                    <img src="images/header-image/header-bg2.jpg" width="1024" height="682" alt="">
+                </div>
+                
+                <div class="slide">
+                    <img src="images/header-image/header-bg3.jpg" width="1024" height="682" alt="">
+                </div>
+                
+                <div class="slide">
+                    <img src="images/header-image/header-bg4.jpg" width="1024" height="682" alt="">
+                </div>
+                
+            </div>
+            <!--      轮播图文字部分      -->
+            <div class="bannerText container">
+                <h1>我叫张雄</h1>
+                <p>后端开发工程师，毕业于<a href="http://www.huat.edu.cn/" target="_blank">武汉商学院</a>，2019.05~至今在<a href="http://www.woqutech.com/" target="_blank">杭州沃趣科技</a>工作。</p>
+                <a href="#aboutme" class="mbnt">关于我</a>
+            </div>
+        </div>
+        <!--  菜单条  -->
+        <div class="menu">
+            <div class="navbar-wrapper">
+                <div class="container">
+                    <div class="navwrapper">
+                        <div class="navbar navbar-inverse navbar-static-top">
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                            data-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="#">导航</a>
+                                </div>
+                                <div class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav nav-justified">
+                                        <li class="first menuItem homeLink active">
+                                            <a href="#wrapper">首页</a>
+                                        </li>
+                                        <li class="menuItem">
+                                            <a href="#aboutme">关于我</a>
+                                        </li>
+                                        <li class="menuItem">
+                                            <a href="#technical">技能</a>
+                                        </li>
+                                        <li class="menuItem">
+                                            <a href="#exprience">经历</a>
+                                        </li>
+                                        <li class="menuItem">
+                                            <a href="#reffernces">项目</a>
+                                        </li>
+                                        <li class="menuItem">
+                                            <a href="#contact">联系我</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--   关于我   -->
+    <section class="aboutme" id="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 aboutCont">
+                    <div class="heading clearfix">
+                        <h2>关于我</h2>
+                    </div>
+                    <div id="description">
+                        <!--描述-->
+                        
+                        <p>我是来自杭州的后端开发工程师，2019届武汉商学院电子信息工程专业本科毕业生，大四有过半年的实习经历，2018年6月份开始第一份后端开发工作，至今已经有两年后端开发经验。</p>
+                        
+                        <p>有着坚实的后端开发基础，并且一直保持对新技术的学习热情。主要开发语言为Python和Golang，熟悉django、flask、tornado、beego等主流web框架，熟悉mysql、redis、monodb、oracle使用，了解Vue、jQuery、Bootstrap等前端常用框架；目前正在更加深入的学习编程底层原理、数据库技术、数据分析和可视化技术。</p>
+                        
+                        <p>爱骑车、桌球、下棋、读写博客、听音乐、公益，代码不是生活的全部。</p>
+                        
+                    </div>
+                    <!--地址连接-->
+                    <div class="aboutmeLinks">
+                        
+                        <a href="https://www.zhangxiong.net/" class="btnDownload" target="_blank">个人博客</a>
+                        
+                        <a href="https://github.com/xiong-zh" class="btnDownload" target="_blank">github</a>
+                        
+                        <a href="https://dev.tencent.com/u/lujianxin/" class="btnDownload" target="_blank">coding</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  技能掌握  -->
+    <section class="technical" id="technical">
+        <div class="container">
+            <div class="heading">
+                <h2 id="technical_title">技能</h2>
+                <p>作为一名开发人员，面对日新月异的技术，保持一种学习的习惯。目前我的技能以web开发这个技术栈为中心，以下是我的技能及掌握情况。</p>
+            </div>
+            <!--技能列表-->
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="85"><span
+                                class="percent"></span></span>
+                        <h4>Django、Flask、Tornado</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="60"><span
+                                class="percent"></span></span>
+                        <h4>Linux</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="75"><span
+                                class="percent"></span></span>
+                        <h4>Git</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>MySQL</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>Redis、Mongodb</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>request、socket、urllib</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="65"><span
+                                class="percent"></span></span>
+                        <h4>xpath、re、schema</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="60"><span
+                                class="percent"></span></span>
+                        <h4>Celery、Channels、rest_framework</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="60"><span
+                                class="percent"></span></span>
+                        <h4>Nginx、supervisor、uWsgi</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="40"><span
+                                class="percent"></span></span>
+                        <h4>Oracle</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="40"><span
+                                class="percent"></span></span>
+                        <h4>Vue、jQuery、Bootstrap</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="30"><span
+                                class="percent"></span></span>
+                        <h4>Beego</h4>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--  工作经历  -->
+    <section class="exprience" id="exprience">
+        <div class="container">
+            <div class="heading">
+                <h2>经历</h2>
+                <p>2018年6月，毕业于武汉商学院，从此开始了自己的后端开发工程师生涯。第一家的时候自己还是一个职场新人，主要是在实际项目中不断学习，提升自己的后端开发技能和经验。第二家便是如今所在单位：杭州沃趣科技。我很喜欢沃趣积极向上、务实高效、学习氛围浓厚的工作环境，希望我和沃趣一起成长。</p>
+            </div>
+            
+            <div class="row workDetails">
+                <!-- 时间信息 -->
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="workYear">
+                        <span class="prevY">2019-05</span>
+                        <span class="afterY">至今</span>
+                    </div>
+                </div>
+                <!--描述信息-->
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                    <div class="arrowpart"></div>
+                    <div class="exCon">
+                        <h4>杭州沃趣科技股份有限公司</h4>
+                        <h5>后端开发工程师</h5>
+                        <p>沃趣科技技术领域涉及Oracle、MySQL、PostgreSQL等数据库云平台架构和超融合云平台架构，主要产品包括：QData Cloud数据库私有云平台、QFusion企业超融合云平台、QPlus数据库秒级备份恢复云平台。</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row workDetails">
+                <!-- 时间信息 -->
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="workYear">
+                        <span class="prevY">2018-06</span>
+                        <span class="afterY">2019-03</span>
+                    </div>
+                </div>
+                <!--描述信息-->
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                    <div class="arrowpart"></div>
+                    <div class="exCon">
+                        <h4>杭州麦杰思物联网科技有限公司</h4>
+                        <h5>后端开发工程师</h5>
+                        <p>一家以新零售为风口的创业型公司，主要产品是无人货柜，2018年11月被杭州中亚机械股份有限公司收购。以小程序Spriteye为用户入口，利用重力+视觉算法识别商品，互联网技术为连接实现的无人货柜。</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row workDetails">
+                <!-- 时间信息 -->
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="workYear">
+                        <span class="prevY">2014-09</span>
+                        <span class="afterY">2018-06</span>
+                    </div>
+                </div>
+                <!--描述信息-->
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                    <div class="arrowpart"></div>
+                    <div class="exCon">
+                        <h4>湖北汽车工业学院</h4>
+                        <h5>电子信息工程</h5>
+                        <p>在校主修课程：Python、c语言、数据结构、计算机网络、汇编原理、单片机、FPGA、DSP等。曾获荣誉：人民奖学金三等、优秀志愿工作者、志愿者社团宣传部长、CET4等。</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- 项目经验 -->
+    <section class="reffernces" id="reffernces">
+        <div class="container">
+            <div class="heading">
+                <h2>项目</h2>
+                <p>下面包括了自己的开源项目，公司项目，推荐的网站等。<br><b>出于职业道德和法律约束，部分项目无法访问，请见谅！</b></p>
+            </div>
+            <div class="row waterfall" data-col-min-width="300">
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="javascript: void(0);" target="_blank">QData-Cloud数据库一体机运维平台</a></h3>
+                        <br>
+                        <p>沃趣科技QData产品web管理平台，由tornado框架构建而成。基于web页面我们可对oracle数据库一体机进行集群管理，监控可视化，告警配置等操作，极大提高了运维效率。</p>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="javascript: void(0);" target="_blank">基于opencv的无人货柜人脸识别系统</a></h3>
+                        <br>
+                        <p>采用opencv + baidu-aip + pyqt5和平板电脑，实现了用户注册账户并录入人脸后, 无需携带手机, 刷脸即可在无人货柜开门购物, 关门自动结算。产品已经成功在2019第七届中国(广州)国际自助售货系统与设施博览会展出, 获得了良好的评价。</p>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="javascript: void(0);" target="_blank">U选便利后台管理系统和小程序</a></h3>
+                        <br>
+                        <p>使用Mysql, Redis数据库，Django-Restfrmework后端框架，Nginx+uwsgi服务器部署，完成了无人货柜后台管理以及支付宝小程序后端系统，系统和小程序现已在线上稳定运行。</p>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="javascript: void(0);" target="_blank">联华鲸选无人便利店后台管理系统</a></h3>
+                        <br>
+                        <p>使用Mysql, Redis数据库，Django-Restfrmework后端框架，Nginx+uwsgi服务器部署，完成了无人便利店后台管理系统部分模块，系统暂未上线运行。主要参与了后台管理系统中审批流程、权限系统、ERP系统的设计，实现了商品队列流转机制、权限和审批流程自由搭配的功能模块，设计预留了城配物流、亲情账户等备用功能模块。</p>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="https://www.zhangxiong.net/" target="_blank">个人博客</a></h3>
+                        <br>
+                        <p>因为我本身喜欢读写博客，索性自己购买域名和服务器自己动手搭建一个自己的专属博客。博客采用django + redis + nginx + xadmin + ueditor等插件完成，访客部分则采用来必力云评论插件完成。</p>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="https://github.com/jeeyshe/django-date-dump" target="_blank">django-date-dump</a></h3>
+                        <br>
+                        <p>基于django-restframework框架开发的一个小插件，用以通过简单的配置快速对django的model表导出excel表格，其中字段自定义，自持扩展，sheet数量自定义。</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--联系我-->
+    <section class="contact" id="contact">
+        <div class="container topCon">
+            <div class="heading">
+                <h2>联系我</h2>
+            </div>
+        </div>
+    </section>
+    <!--联系方式-->
+    <section class="contactDetails">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p><i class="icon icon-envelope"></i><a>imzhangxiong@gmail.com</a></p>
+                <p><i class="icon icon-link"></i><a href="https://www.zhangxiong.net/" target="_blank">https://www.zhangxiong.net/</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="container">
+            
+            <div style="text-align: center"><p>千里马常有而伯乐不常有，你会成为我的伯乐么？</p></div>
+            
+            <!--            <ul>-->
+            <!--                <li><a href="https://www.zhangxiong.net/" target="_blank"><i class="icon icon-github icon-2x"></i></a></li>-->
+            <!--            </ul>-->
+            <!--回到顶部-->
+            <span class="totop"><i class="icon icon-chevron-up"></i></span>
+        </div>
+    </section>
+</div>
+
+<!------------------seo-baidu----------------->
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+<!---------------seo-360---------------->
+<script>
+    (function () {
+        var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?fca335b403c00338ac4edd15a7415d49" : "https://jspassport.ssl.qhimg.com/11.0.1.js?fca335b403c00338ac4edd15a7415d49";
+        document.write('<script src="' + src + '" id="sozz"><\/script>');
+    })();
+</script>
+
+<!--js代码-->
+<script src="./js/jquery-2.1.4.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/jquery.waterfall.js"></script>
+<script src="./js/stickUp.js"></script>
+<script type="text/javascript">
+    jQuery(function ($) {
+        $(document).ready(function () {
+            //enabling stickUp on the '.navbar-wrapper' class
+
+            $('.navbar-wrapper').stickUp({
+                parts: {
+                    0: 'wrapper',
+                    1: 'aboutme',
+                    2: 'technical',
+                    3: 'exprience',
+                    4: 'reffernces',
+                    5: 'contact'
+                },
+                itemClass: 'menuItem',
+                itemHover: 'active',
+                topMargin: 'auto'
+            });
+        });
+    });
+</script>
+<script src="./js/jquery.superslides.js"></script>
+<script src="./js/jquery.easing.min.js"></script>
+<script src="./js/custom.js"></script>
+<script src="js/jquery.easypiechart.js"></script>
+
+</body>
+
+</html>
